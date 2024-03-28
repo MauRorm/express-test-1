@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9700f7c.css",
+    "main.js": "/static/js/main.9dd1c946.js",
+    "static/js/453.ff44c0d5.chunk.js": "/static/js/453.ff44c0d5.chunk.js",
+    "static/media/image-product.jpg": "/static/media/image-product.f9bed32f82210a6a4271.jpg",
+    "static/media/mercado_libre_cabeza.jpg": "/static/media/mercado_libre_cabeza.deda1bf27652ac7278d4.jpg",
+    "index.html": "/index.html",
+    "main.e9700f7c.css.map": "/static/css/main.e9700f7c.css.map",
+    "main.9dd1c946.js.map": "/static/js/main.9dd1c946.js.map",
+    "453.ff44c0d5.chunk.js.map": "/static/js/453.ff44c0d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9700f7c.css",
+    "static/js/main.9dd1c946.js"
+  ]
+}
