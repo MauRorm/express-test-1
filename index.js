@@ -12,11 +12,15 @@ const helmet = require('helmet');
 app.use(
   helmet.contentSecurityPolicy({
     directives: {
-      "default-src": ["'self'"],
-      "object-src": ["'none'"]
+      "default-src": ["'self'", "https:", "'unsafe-inline'", "'unsafe-eval'"],
+      "script-src": ["'self'", "https:", "'unsafe-inline'", "'unsafe-eval'"],
+      "style-src": ["'self'", "https:", "'unsafe-inline'"],
+      "img-src": ["'self'", "data:", "https:"],
+      "connect-src": ["'self'", "ws:", "wss:", "https:"],
     }
   })
 );
+
 
 app.use(cors({ credentials: true, origin: `http://localhost:3000` }));
 
