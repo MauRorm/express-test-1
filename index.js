@@ -14,7 +14,6 @@ app.use(
     directives: {
       defaultSrc: ["'self'"],
       scriptSrc: ["'self'", "https://apisegura.com", "https://vercel.live", "'unsafe-inline'", "'unsafe-eval'"],
-      scriptSrc: ["'self'", "https://vercel.live", "'unsafe-inline'", "'unsafe-eval'"],
       styleSrc: ["'self'", "'unsafe-inline'"],
       imgSrc: ["'self'", "data:", "https:"],
       connectSrc: ["'self'", "https:", "wss:", "ws:"],
