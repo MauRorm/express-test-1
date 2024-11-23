@@ -9,22 +9,21 @@ var compression = require('compression');
 app.use(compression());
 const helmet = require('helmet');
 
-app.use(helmet({
-  contentSecurityPolicy: {
+app.use(
+  helmet.contentSecurityPolicy({
     directives: {
       defaultSrc: ["'self'"],
-      scriptSrc: ["'self'", "https://vercel.live", "'unsafe-inline'", "'unsafe-eval'"],
-      styleSrc: ["'self'", "https://vercel.live", "'unsafe-inline'"],
+      scriptSrc: ["'self'", "https://apisegura.com", "https://vercel.live", "'unsafe-inline'", "'unsafe-eval'"],
+      styleSrc: ["'self'", "'unsafe-inline'"],
       imgSrc: ["'self'", "data:", "https:"],
       connectSrc: ["'self'", "https:", "wss:", "ws:"],
       fontSrc: ["'self'", "https:", "data:"],
-      frameSrc: ["'self'", "https://vercel.live"],
-      objectSrc: ["'none'"],
-      upgradeInsecureRequests: [],
-    },
-    reportOnly: false,
-  }
-}));
+      frameSrc: ["'self'"],
+      objectSrc: ["'none'"]
+    }
+  })
+);
+
 
 app.use(cors({ credentials: true, origin: `http://localhost:3000` }));
 
