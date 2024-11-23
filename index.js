@@ -42,6 +42,7 @@ app.use(require('./api/routes/crud'));
 const root = require('path').join(__dirname, 'client', 'build')
 app.use(express.static(root));
 app.get("*", (req, res) => {
+    //
     res.sendFile('index.html', { root });
 });
 
