@@ -17,6 +17,7 @@ app.use(
       styleSrc: ["'self'", "'unsafe-inline'"],
       imgSrc: ["'self'", "data:", "https:"],
       connectSrc: ["'self'", "https:", "wss:", "ws:"],
+      reportUri: ["/csp-violation-report-endpoint"],
     }
   })
 );
@@ -24,7 +25,7 @@ app.use(
 app.use(cors({ credentials: true, origin: `http://localhost:3000` }));
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));y
+app.use(express.urlencoded({ extended: false }));
 
 
 const root = require('path').join(__dirname, 'client', 'build')
