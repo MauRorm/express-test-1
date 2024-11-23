@@ -1,0 +1,297 @@
+{
+  "_firebase-reset-password-view-DKRTN3Cx.js": {
+    "file": "assets/firebase-reset-password-view-DKRTN3Cx.js",
+    "name": "firebase-reset-password-view",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_supabase-update-password-view-BKgIOO9e.js": {
+    "file": "assets/supabase-update-password-view-BKgIOO9e.js",
+    "name": "supabase-update-password-view",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/index-CvkUPu6K.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/locales/langs/ar/common.json",
+      "src/locales/langs/ar/navbar.json",
+      "src/locales/langs/cn/common.json",
+      "src/locales/langs/cn/navbar.json",
+      "src/locales/langs/en/common.json",
+      "src/locales/langs/en/navbar.json",
+      "src/locales/langs/fr/common.json",
+      "src/locales/langs/fr/navbar.json",
+      "src/locales/langs/vi/common.json",
+      "src/locales/langs/vi/navbar.json",
+      "src/pages/auth/jwt/sign-in.jsx",
+      "src/pages/auth/jwt/sign-up.jsx",
+      "src/pages/auth/amplify/sign-up.jsx",
+      "src/pages/auth/amplify/verify.jsx",
+      "src/pages/auth/amplify/update-password.jsx",
+      "src/pages/auth/amplify/reset-password.jsx",
+      "src/pages/auth/firebase/sign-in.jsx",
+      "src/pages/auth/firebase/sign-up.jsx",
+      "src/pages/auth/firebase/verify.jsx",
+      "src/pages/auth/firebase/reset-password.jsx",
+      "src/pages/auth/auth0/sign-in.jsx",
+      "src/pages/auth/auth0/callback.jsx",
+      "src/pages/auth/supabase/sign-in.jsx",
+      "src/pages/auth/supabase/sign-up.jsx",
+      "src/pages/auth/supabase/verify.jsx",
+      "src/pages/auth/supabase/update-password.jsx",
+      "src/pages/auth/supabase/reset-password.jsx"
+    ],
+    "css": [
+      "assets/index-DkKlWhF9.css"
+    ],
+    "assets": [
+      "assets/images-irregular-BJktojIB.jpeg",
+      "assets/Plano-de-casa-en-terreno-triangular-1-Br46bcKo.png",
+      "assets/user-D__q57DX.png"
+    ]
+  },
+  "src/images.jpeg": {
+    "file": "assets/images-D_dM9sK2.jpeg",
+    "src": "src/images.jpeg"
+  },
+  "src/locales/langs/ar/common.json": {
+    "file": "assets/common-BY6QLy1_.js",
+    "name": "common",
+    "src": "src/locales/langs/ar/common.json",
+    "isDynamicEntry": true
+  },
+  "src/locales/langs/ar/navbar.json": {
+    "file": "assets/navbar-ktV6p04o.js",
+    "name": "navbar",
+    "src": "src/locales/langs/ar/navbar.json",
+    "isDynamicEntry": true
+  },
+  "src/locales/langs/cn/common.json": {
+    "file": "assets/common-DL-D19Ni.js",
+    "name": "common",
+    "src": "src/locales/langs/cn/common.json",
+    "isDynamicEntry": true
+  },
+  "src/locales/langs/cn/navbar.json": {
+    "file": "assets/navbar-BnLMjr7w.js",
+    "name": "navbar",
+    "src": "src/locales/langs/cn/navbar.json",
+    "isDynamicEntry": true
+  },
+  "src/locales/langs/en/common.json": {
+    "file": "assets/common-CAObGQSC.js",
+    "name": "common",
+    "src": "src/locales/langs/en/common.json",
+    "isDynamicEntry": true
+  },
+  "src/locales/langs/en/navbar.json": {
+    "file": "assets/navbar-CF-b5y9J.js",
+    "name": "navbar",
+    "src": "src/locales/langs/en/navbar.json",
+    "isDynamicEntry": true
+  },
+  "src/locales/langs/fr/common.json": {
+    "file": "assets/common-B8QUimo5.js",
+    "name": "common",
+    "src": "src/locales/langs/fr/common.json",
+    "isDynamicEntry": true
+  },
+  "src/locales/langs/fr/navbar.json": {
+    "file": "assets/navbar-Mk0pXP6m.js",
+    "name": "navbar",
+    "src": "src/locales/langs/fr/navbar.json",
+    "isDynamicEntry": true
+  },
+  "src/locales/langs/vi/common.json": {
+    "file": "assets/common-CdOXmyYw.js",
+    "name": "common",
+    "src": "src/locales/langs/vi/common.json",
+    "isDynamicEntry": true
+  },
+  "src/locales/langs/vi/navbar.json": {
+    "file": "assets/navbar-BtLonICI.js",
+    "name": "navbar",
+    "src": "src/locales/langs/vi/navbar.json",
+    "isDynamicEntry": true
+  },
+  "src/pages/auth/amplify/reset-password.jsx": {
+    "file": "assets/reset-password-BEgLGZu7.js",
+    "name": "reset-password",
+    "src": "src/pages/auth/amplify/reset-password.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/auth/amplify/sign-up.jsx": {
+    "file": "assets/sign-up-nS7t33ZL.js",
+    "name": "sign-up",
+    "src": "src/pages/auth/amplify/sign-up.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/auth/amplify/update-password.jsx": {
+    "file": "assets/update-password-Bw8Rtu8y.js",
+    "name": "update-password",
+    "src": "src/pages/auth/amplify/update-password.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/auth/amplify/verify.jsx": {
+    "file": "assets/verify-DDO5steP.js",
+    "name": "verify",
+    "src": "src/pages/auth/amplify/verify.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/auth/auth0/callback.jsx": {
+    "file": "assets/callback-3FcK_RFx.js",
+    "name": "callback",
+    "src": "src/pages/auth/auth0/callback.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/auth/auth0/sign-in.jsx": {
+    "file": "assets/sign-in-GRsI-r0B.js",
+    "name": "sign-in",
+    "src": "src/pages/auth/auth0/sign-in.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/auth/firebase/reset-password.jsx": {
+    "file": "assets/reset-password-B4pm4rqn.js",
+    "name": "reset-password",
+    "src": "src/pages/auth/firebase/reset-password.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_firebase-reset-password-view-DKRTN3Cx.js"
+    ]
+  },
+  "src/pages/auth/firebase/sign-in.jsx": {
+    "file": "assets/sign-in-D4H2mH6O.js",
+    "name": "sign-in",
+    "src": "src/pages/auth/firebase/sign-in.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_firebase-reset-password-view-DKRTN3Cx.js"
+    ]
+  },
+  "src/pages/auth/firebase/sign-up.jsx": {
+    "file": "assets/sign-up-CDW3Vod7.js",
+    "name": "sign-up",
+    "src": "src/pages/auth/firebase/sign-up.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_firebase-reset-password-view-DKRTN3Cx.js"
+    ]
+  },
+  "src/pages/auth/firebase/verify.jsx": {
+    "file": "assets/verify-CFUGx-ho.js",
+    "name": "verify",
+    "src": "src/pages/auth/firebase/verify.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_firebase-reset-password-view-DKRTN3Cx.js"
+    ]
+  },
+  "src/pages/auth/jwt/sign-in.jsx": {
+    "file": "assets/sign-in-YxA_nC-S.js",
+    "name": "sign-in",
+    "src": "src/pages/auth/jwt/sign-in.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/auth/jwt/sign-up.jsx": {
+    "file": "assets/sign-up-CwrMAujg.js",
+    "name": "sign-up",
+    "src": "src/pages/auth/jwt/sign-up.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/pages/auth/supabase/reset-password.jsx": {
+    "file": "assets/reset-password-BXJ8WDoN.js",
+    "name": "reset-password",
+    "src": "src/pages/auth/supabase/reset-password.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_supabase-update-password-view-BKgIOO9e.js"
+    ]
+  },
+  "src/pages/auth/supabase/sign-in.jsx": {
+    "file": "assets/sign-in-JsJRjVHF.js",
+    "name": "sign-in",
+    "src": "src/pages/auth/supabase/sign-in.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_supabase-update-password-view-BKgIOO9e.js"
+    ]
+  },
+  "src/pages/auth/supabase/sign-up.jsx": {
+    "file": "assets/sign-up-BjLXfDoz.js",
+    "name": "sign-up",
+    "src": "src/pages/auth/supabase/sign-up.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_supabase-update-password-view-BKgIOO9e.js"
+    ]
+  },
+  "src/pages/auth/supabase/update-password.jsx": {
+    "file": "assets/update-password-o3J7hUvL.js",
+    "name": "update-password",
+    "src": "src/pages/auth/supabase/update-password.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_supabase-update-password-view-BKgIOO9e.js"
+    ]
+  },
+  "src/pages/auth/supabase/verify.jsx": {
+    "file": "assets/verify-DejfhIqp.js",
+    "name": "verify",
+    "src": "src/pages/auth/supabase/verify.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_supabase-update-password-view-BKgIOO9e.js"
+    ]
+  },
+  "src/sections/Plano-de-casa-en-terreno-triangular-1.png": {
+    "file": "assets/Plano-de-casa-en-terreno-triangular-1-Br46bcKo.png",
+    "src": "src/sections/Plano-de-casa-en-terreno-triangular-1.png"
+  },
+  "src/sections/images-irregular.jpeg": {
+    "file": "assets/images-irregular-BJktojIB.jpeg",
+    "src": "src/sections/images-irregular.jpeg"
+  },
+  "src/sections/user.png": {
+    "file": "assets/user-D__q57DX.png",
+    "src": "src/sections/user.png"
+  }
+}
