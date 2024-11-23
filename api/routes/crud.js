@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { getList, getItemDetail, } = require('../controllers/listControllers');
+const { postLogin } = require('../controllers/listControllers');
 
-router.get('/api/get', getList);
+router.post('/api/login', postLogin);
 
 module.exports = router
