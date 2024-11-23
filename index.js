@@ -12,31 +12,24 @@ const helmet = require('helmet');
 app.use(
   helmet.contentSecurityPolicy({
     directives: {
-      defaultSrc: ["'self'"],
-      scriptSrc: ["'self'", "https://vercel.live", "'unsafe-inline'", "'unsafe-eval'"],
-      styleSrc: ["'self'", "'unsafe-inline'"],
-      imgSrc: ["'self'", "data:", "https:"],
-      connectSrc: ["'self'", "https:", "wss:", "ws:"],
-      fontSrc: ["'self'", "https:", "data:"],
-      frameSrc: ["'self'"],
-      objectSrc: ["'none'"]
+      "default-src": ["'self'"],
+      "object-src": ["'none'"]
     }
   })
 );
-
 
 app.use(cors({ credentials: true, origin: `http://localhost:3000` }));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+app.use(require('./api/routes/crud'));
 
 
 
 const root = require('path').join(__dirname, 'client', 'build')
 app.use(express.static(root));
 app.get("*", (req, res) => {
-    //
     res.sendFile('index.html', { root });
 });
 
